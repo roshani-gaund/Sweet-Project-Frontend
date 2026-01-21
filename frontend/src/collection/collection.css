@@ -1,0 +1,50 @@
+.ProductDetails {
+    width: 100%;
+    height: 100vh; /* Or whatever fits your design */
+  }
+  .ProductDetails .swiper-slide {
+    height: 100%;
+  }
+  .ProductDetails img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    display: block;
+  }
+  .swiper{
+    position: relative;
+  }
+  .info{
+    position: absolute;
+    top: 15%; 
+   left: 60%; 
+  }
+  .info .color{
+    color: #ca6b4b;
+  }
+  .info h1{
+    font-family: 'Times New Roman', Times, serif;
+color:rgb(254, 24, 3) ;
+font-size: 60px;
+  }
+   .info .head-craft{
+    color: rgb(227, 206, 17);
+   text-decoration:aliceblue;
+  }
+  .info button{
+    width: 42%;
+    border-radius: 10px;
+    padding: 8px;
+    background-color:rgb(235, 162, 15);
+    display: flex;
+    color: beige;
+    font-size: 32px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+    
+  }
+  .info h3{
+    color: aliceblue;
+  }

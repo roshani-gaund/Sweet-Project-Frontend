@@ -1,0 +1,192 @@
+#name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:aliceblue;
+    font-size: 16px;
+   
+
+    font-weight: 600;
+    background-color: rgb(146, 54, 54);
+}
+#nav{
+    width: 200px;
+    height: fit-content;
+    background-color:rgba(189, 178, 178, 0.555);
+}
+#head{
+    padding-top: 14px;
+    margin-left: 20%;
+}
+
+@media (max-width:768px) {
+        #head{
+        display: none;
+        }
+    }
+
+div #tag{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(227, 189, 144);
+    margin-left: 20px;
+    height: 20px;
+    font-weight: 600; 
+}
+div #logo{
+    margin-top: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: auto;
+    margin-left: 20px;
+    font-style: italic;
+ }
+ /* Reset margins and paddings for nav links */
+.navbar{
+    padding: 10px;
+     height: 50px;
+    z-index: 1100;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;  
+}
+.shop{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    
+
+}
+.shop i{
+    padding: 1px;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    gap: 10px;
+    flex-direction: column;
+   
+}
+@media (min-width: 992px) {
+    .nav-links {
+      flex-direction: row;
+    }
+}
+.dropdown-menu .dropdown-item {
+    font-size: 16px;        
+    color: #777373;         
+  }
+#nav-dropdown-Shopall{
+    padding: 5px;
+    font-weight: 600;
+    margin-left: 5px;
+    font-size:larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-links li a{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    list-style: none;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s;
+    font-size:18px;
+    
+}
+
+.nav-links li a:hover{
+   border-bottom: 1px solid black;
+   transition: 0.3 ease-out;
+   padding: 1px;
+}
+
+button{
+    background: none;
+    border: none;
+}
+.nav-react-icon{
+    display: flex;
+}
+  
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+      background-color: rgba(255, 255, 255, 0.9); /* White background with 80% opacity */
+    }
+  }
+ /* Search input styling */
+.search-input {
+    border: 1px solid #c8c8c8;
+    padding: 5px 10px;
+    border-radius: 10px;
+    outline: none;
+    margin-right: 10px;
+    transition: width 0.4s ease;
+    width: 250px;
+  }
+  
+  /* Make it responsive */
+  @media (max-width: 768px) {
+    .search-input {
+      width: 100px;
+    }
+  }
+ /* Cart badge styling */
+.cart-badge {
+    position: absolute;
+    top: 6px;
+    right: 15px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    z-index: 10;
+  }
+  
+  .search-container {
+    position: relative;
+  }
+  
+  .search-input {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-suggestions {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .search-suggestions li {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .search-suggestions li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  
+  
+ 
+  

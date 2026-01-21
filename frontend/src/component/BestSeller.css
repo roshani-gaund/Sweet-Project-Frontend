@@ -1,0 +1,37 @@
+.scroll-container {
+    scroll-snap-type: x mandatory;
+    padding-bottom: 20px;
+    
+  }
+  .scroll-container > * {
+    scroll-snap-align: start;
+  }
+  .best-seller-section .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure cards stretch to match */
+    min-height: 450px; /* Or any height you prefer */
+  }
+  
+  .best-seller-section .card-img-top {
+    height: 200px;
+    object-fit: cover; /* Keep aspect ratio while filling */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .best-seller-section .card-body {
+    flex: 1; /* Take remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .explore{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 28px;
+   background-color: black;
+   color: white;
+  margin-top: 30px;
+   border-radius: 10px;
+   height: 50px;
+ margin-left: 40%;
+  }    
