@@ -47,25 +47,25 @@ const home = () => {
           <div className="row" id='shopRange'>
             <div className="col-md-3">
             <Link to="/Gifting" style={{ textDecoration: 'none', color: 'inherit' }}>
-           <img src='s.webp' />
+           <img src='https://res.cloudinary.com/dvo3apbag/image/upload/v1768989024/s_fyz52y.webp' />
               <h3 id='imgtag'>Sweets & Gifting</h3>
               </Link>
             </div>
             <div className="col-md-3">
             <Link to="/Biscuits" style={{ textDecoration: 'none', color: 'inherit' }}>
-              <img src='b.webp' />
+              <img src='https://res.cloudinary.com/dvo3apbag/image/upload/v1768989052/b_fwxmje.webp' />
               <h3 id='imgtag'>Biscuits</h3>
              </Link>
             </div>
             <div className="col-md-3">
             <Link to="/sweets" style={{ textDecoration: 'none', color: 'inherit' }}>
-              <img src='Sweets.webp' />
+              <img src='https://res.cloudinary.com/dvo3apbag/image/upload/v1768989069/Sweets_lehuok.webp' />
               <h3 id='imgtag'>Sweets</h3>
               </Link>
             </div>
             <div className="col-md-3">
             <Link to="/Snacks" style={{ textDecoration: 'none', color: 'inherit' }}>
-              <img src='Snacks.webp' />
+              <img src='https://res.cloudinary.com/dvo3apbag/image/upload/v1768989083/Snacks_baeti3.webp' />
               <h3 id='imgtag'>Snacks</h3>
               </Link> 
             </div>
@@ -107,21 +107,21 @@ const home = () => {
           </div>
           <div className="row" id='Crafted-img'>
             <div className="col-md-4" >
-              <img src='ass.webp'  data-aos="slide-right" data-aos-delay="300"/>
+              <img src='https://res.cloudinary.com/dvo3apbag/image/upload/v1768989260/ass_xlxbie.webp'  data-aos="slide-right" data-aos-delay="300"/>
               <h3 className='image-content' data-aos="zoom-in" data-aos-delay="400">Assorted Gift Boxes</h3>
               <p className='centered-text'>Choose from exquisite Hand-picked premium Gifting collection</p>
               <Link to="/Collection" style={{ textDecoration: 'none', color: 'inherit' }}>
               <button className='button'>View Collection</button></Link>
             </div>
             <div className="col-md-4">
-              <img src='Dry_FRuits_Giftboxes.webp' data-aos="fade-up" data-aos-delay="200" />
+              <img src='https://res.cloudinary.com/dvo3apbag/image/upload/v1768989280/Dry_FRuits_Giftboxes_ibta8d.webp' data-aos="fade-up" data-aos-delay="200" />
               <h3 className='image-content' data-aos="zoom-in" data-aos-delay="400">Dry Fruits Gift Boxes</h3>
               <p className='centered-text'>Sumptuous assortment of dry fruits & nuts packaged with a touch of Royalty</p>
               <Link to="/Collection" style={{ textDecoration: 'none', color: 'inherit' }}>
               <button className='button'>View Collection</button></Link>
             </div>
             <div className="col-md-4">
-              <img src='gg.webp'  data-aos="slide-left" data-aos-delay="300"/>
+              <img src='https://res.cloudinary.com/dvo3apbag/image/upload/v1768989299/gg_xg3npa.webp'  data-aos="slide-left" data-aos-delay="300"/>
               <h3 className='image-content' data-aos="zoom-in" data-aos-delay="400">Souvenir Gift Boxes</h3>
               <p className='centered-text'>This collection is our ode to the beauty and culture of India- each box has a story to tell
               </p>
@@ -150,7 +150,7 @@ const home = () => {
       <div className="container" data-aos="fade-up" data-aos-delay="200">
         <div className="row" id='posture'>
           <div className="col-lg-7 col-xs-12  posture-pic">
-            <img src='guilt-free.webp' data-aos="slide-right" data-aos-delay="400" />
+            <img src='https://res.cloudinary.com/dvo3apbag/image/upload/v1768989447/guilt-free_uzhpof.webp' data-aos="slide-right" data-aos-delay="400" />
           </div>
           <div className="col-md-5" id='posture-cont'>
             <h1>Guilt Free Sweets</h1>
@@ -261,7 +261,7 @@ proving that great taste knows no boundaries.</p>
             <button>Read more</button>
           </div>
           <div className="col-md-4 Blogs-col">
-            <img src='6.webp' data-aos="slide-left" data-aos-delay="400" />
+            <img src='https://res.cloudinary.com/dvo3apbag/image/upload/v1768989549/6_e9xdbg.webp' data-aos="slide-left" data-aos-delay="400" />
             <p>January01, 2025</p>
             <h4>Zepto Want to make delivery</h4>
             <button>Read more</button>
