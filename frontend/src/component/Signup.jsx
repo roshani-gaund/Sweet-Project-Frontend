@@ -20,7 +20,9 @@ function Signup({ showLogin, setShowLogin,showSignup, setShowSignup }) {
     }
 
 try{
- await axios.post('http://localhost:4001/api/users/signup', userInfo)
+ await axios.post(' https://sweet-shop-backend-vm7r.onrender.com/api/users/signup', userInfo,{
+  withCredentials:true
+ })
 .then((res)=>{
   if(res.data){ 
     console.log(res.data)
@@ -46,7 +48,9 @@ const handleloginSubmit = async (data) => {
   console.log("Login Data being sent:", userInfo);
 
 try{
-await axios.post('http://localhost:4001/api/users/login', userInfo)
+await axios.post(' https://sweet-shop-backend-vm7r.onrender.com/api/users/login', userInfo,{
+  withCredentials:true
+})
 .then((res)=>{
 console.log(res.data)
 console.log("Login Data being sent:", userInfo);

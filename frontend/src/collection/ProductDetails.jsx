@@ -12,7 +12,9 @@ const ProductDetails = () => {
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    axios.get(`http://localhost:4001/api/category/dryfruits/${id}`)
+    axios.get(` https://sweet-shop-backend-vm7r.onrender.com/api/category/dryfruits/${id}`,{
+      withCredentials:true
+    })
       .then(res => {
         setProduct(res.data);
         setLoading(false);
@@ -23,7 +25,9 @@ const ProductDetails = () => {
       });
   }, [id]);
   useEffect(() => {
-    axios.get(`http://localhost:4001/api/category/gifting/${id}`)
+    axios.get(` https://sweet-shop-backend-vm7r.onrender.com/api/category/gifting/${id}`,{
+      withCredentials:true
+    })
       .then(res => {
         setProduct(res.data);
         setLoading(false);
@@ -34,7 +38,9 @@ const ProductDetails = () => {
       });
   }, [id]);
   useEffect(() => {
-    axios.get(`http://localhost:4001/api/category/sweet/${id}`)
+    axios.get(` https://sweet-shop-backend-vm7r.onrender.com/api/category/sweet/${id}`,{
+      withCredentials:true
+    })
       .then(res => {
         setProduct(res.data);
         setLoading(false);
@@ -46,7 +52,9 @@ const ProductDetails = () => {
   }, [id]);
 
   useEffect(() => {
-    axios.get(`http://localhost:4001/api/category/snack/${id}`)
+    axios.get(` https://sweet-shop-backend-vm7r.onrender.com/api/category/snack/${id}`,{
+      withCredentials:true
+    })
       .then(res => {
         setProduct(res.data);
         setLoading(false);
@@ -61,7 +69,9 @@ const ProductDetails = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const res = await axios.get(`http://localhost:4001/api/products/${id}`);
+        const res = await axios.get(` https://sweet-shop-backend-vm7r.onrender.com/api/products/${id}`,{
+          withCredentials:true
+        });
         setProduct(res.data);
       } catch (err) {
         console.error('Error fetching product:', err);

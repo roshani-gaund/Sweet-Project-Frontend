@@ -16,7 +16,9 @@ const Snacks = () => {
    const [quantities, setQuantities] = useState({});
    
    useEffect(() => {
-     axios.get('http://localhost:4001/api/category/snack') // Update the URL to your backend route
+     axios.get(' https://sweet-shop-backend-vm7r.onrender.com/api/category/snack',{
+      withCredentials:true
+     }) // Update the URL to your backend route
        .then(response => {
          setProducts(response.data);
          const initialQuantities = response.data.reduce((acc, product) => {

@@ -15,7 +15,9 @@ const Gifting = () => {
    const [quantities, setQuantities] = useState({});
    
    useEffect(() => {
-     axios.get('http://localhost:4001/api/category/gifting') // Update the URL to your backend route
+     axios.get(' https://sweet-shop-backend-vm7r.onrender.com/api/category/gifting',{
+      withCredentials:true
+     }) // Update the URL to your backend route
        .then(response => {
          setProducts(response.data);
          const initialQuantities = response.data.reduce((acc, product) => {

@@ -16,7 +16,9 @@ const Sweets = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:4001/api/category/sweet') // 🔁 Update endpoint for sweets
+      .get(' https://sweet-shop-backend-vm7r.onrender.com/api/category/sweet',{
+        withCredentials:true
+      }) // 🔁 Update endpoint for sweets
       .then((res) => {
         setProducts(res.data);
         const q = {};

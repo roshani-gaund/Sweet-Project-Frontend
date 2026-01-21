@@ -14,7 +14,9 @@ const home = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:4001/api/products')
+    axios.get(' https://sweet-shop-backend-vm7r.onrender.com/api/products',{
+      withCredentials:true
+    })
       .then(res => setProducts(res.data))
       .catch(err => console.error(err));
   }, []);

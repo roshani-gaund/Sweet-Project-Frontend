@@ -23,7 +23,9 @@ const DryFruits = () => {
   useEffect(() => {
     // 1) fetch from your backend
     axios
-      .get('http://localhost:4001/api/category/dryfruits')
+      .get(' https://sweet-shop-backend-vm7r.onrender.com/api/category/dryfruits',{
+        withCredentials:true
+      })
       .then(res => {
         setProducts(res.data);
         // initialize quantities to 1 for each product
